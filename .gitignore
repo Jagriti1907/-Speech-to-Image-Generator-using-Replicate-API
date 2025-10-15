@@ -1,0 +1,25 @@
+# --- Secrets ---
+# API Keys aur secret information wali file ko ignore karna hai. Yeh sabse zaroori hai.
+.env
+
+# --- Virtual Environment ---
+# Virtual environment ke folder ko ignore karein kyunki yeh har machine par alag hota hai.
+env/
+venv/
+.venv/
+
+# --- Python Cache ---
+# Python dwara generate ki gayi temporary cache files.
+__pycache__/
+*.pyc
+
+# --- Generated Output Files ---
+# Script dwara banayi gayi image jaisi output files.
+*.png
+*.jpg
+*.jpeg
+
+# --- IDE/Editor Folders ---
+# Code editor dwara banaye gaye setting folders.
+.vscode/
+.idea/
